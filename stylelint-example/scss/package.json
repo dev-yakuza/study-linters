@@ -1,0 +1,16 @@
+{
+  "name": "stylelint-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint:css": "stylelint --ignore-path .gitignore '**/*.scss'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint": "^14.5.3",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-standard-scss": "^3.0.0"
+  }
+}
