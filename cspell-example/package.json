@@ -1,0 +1,14 @@
+{
+  "name": "cspell-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "check:spell": "cspell '**' --gitignore --no-progress "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cspell": "^5.18.5"
+  }
+}
